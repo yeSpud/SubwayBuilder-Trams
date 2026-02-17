@@ -7,7 +7,7 @@
     api.trains.registerTrainType({
 		id: 'tram',
 		name: 'Tram',
-		description: 'Trams/Streetcars for street running in dense urban environments',
+		description: 'Trams/Streetcars for street running in dense urban environments. Modeled after the Warsaw\'s Presa Jazz.',
 		
 		// Based off of Pesa Jazz
 		// https://pesa.pl/en/produkty/tramwaje/jazz
@@ -33,12 +33,12 @@
 			carCost: 2_500_000,
 			baseTrackCost: 15_000,
 			baseStationCost: 105_000,
-			scissorsCrossoverCost: 500_000,			
+			scissorsCrossoverCost: 75_000,			
 			trainOperationalCostPerHour: 200,
 			carOperationalCostPerHour: 25
 		},
-		compatibleTrackTypes: ['tram', 'light-rail'],
-		appearance: { color: '##FF8DA1' },
+		compatibleTrackTypes: ['tram'/*, 'light-metro'*/],
+		appearance: { color: '#FF8DA1' },
 		allowAtGradeRoadCrossing: true,
 		
 	});
