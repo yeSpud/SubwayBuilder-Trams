@@ -1,0 +1,10 @@
+{
+    "id": "xyz.thespud.trams",
+    "name": "Trams",
+    "description": "Adds trams to the game",
+    "version": "2026.02.16",
+    "author": {
+        "name": "Spud"
+    },
+    "main": "index.js"
+}
