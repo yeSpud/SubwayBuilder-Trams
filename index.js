@@ -15,7 +15,7 @@
 		stats: { 
 			maxAcceleration: 1.0,
 			maxDeceleration: 1.0,
-			maxSpeed: 80,
+			maxSpeed: 22,
 			maxSpeedLocalStation: 15,
 			
 			capacityPerCar: 35,
@@ -39,7 +39,6 @@
 		},
 		compatibleTrackTypes: ['tram'/*, 'light-metro'*/],
 		appearance: { color: '#FF8DA1' },
-		allowAtGradeRoadCrossing: true,
-		
+		allowAtGradeRoadCrossing: true
 	});
 })();
